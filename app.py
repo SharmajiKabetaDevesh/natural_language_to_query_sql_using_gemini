@@ -44,6 +44,7 @@ prompt=[
 
 st.set_page_config(page_title="Using Gemini to query a SQL Database")
 st.header("Using Gemini to query a SQL Database")
+st.header("The DB table consist of columns: NAME,CLASS,SECTION and MARKS")
 
 questions=st.text_input("What do you want from the Database: ",key="input")
 
